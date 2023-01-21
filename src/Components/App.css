@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav a{
+  font-family: 'Montaga', serif;
+  color: #FF8E7B;
+  font-size: 20px;
+}
+
+.form-control{
+  border: none;
+  background-color: transparent;
+}
+
+.buscador{
+  background-color: #F1D4CE;
+  height: 60px;
+  width: 435px;
+  border-radius: 27px;
+  padding: 20px;
+}
+
+.contador{
+  position: absolute;
+  background-color: #FF77AB;
+  border-radius: 50%;
+  width: 35px;
+  bottom: 8px;
+  right: 100px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#navbar-contenedor{
+  display: flex;
+  align-items: center;
+}
+
+.welcome{
+  background-color: #FFBABA;
+  padding: 15px 0 ;
+}
+
+.welcome h1{
+  color: #FFFFFF;
+  letter-spacing: 8px;
+  font-size: 24px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: transparent;
+  border-color: transparent;
+  outline: 0; 
+  box-shadow: transparent;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #FFFFFF; 
+  text-decoration: none;
+  background-color:  #FFBABA;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #FFFFFF;
+  background-color:#FFBABA;
+}
