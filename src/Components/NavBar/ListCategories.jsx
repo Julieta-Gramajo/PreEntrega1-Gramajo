@@ -1,12 +1,11 @@
+import { Link } from "react-router-dom";
 
 const ListCategories = () => {
     return (
         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a className="dropdown-item" href="#">Perfumes</a></li>
-            <li><a className="dropdown-item" href="#">Maquillaje</a></li>
-            <li><a className="dropdown-item" href="#">Niños</a></li>
-            <li><a className="dropdown-item" href="#">Cuidado del cabello</a></li>
-            <li><a className="dropdown-item" href="#">Cuidado de la piel</a></li>
+            <li><Link className="dropdown-item" to={"/category/pañales"}>Pañales</Link></li>
+            <li><Link className="dropdown-item" to={"/category/mamaderas"}>Mamaderas</Link></li>
+            <li><Link className="dropdown-item" to={"/category/chupetes"}>Chupetes</Link></li>
         </ul>
     );
 }

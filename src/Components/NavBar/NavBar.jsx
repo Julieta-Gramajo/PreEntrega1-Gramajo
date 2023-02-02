@@ -3,11 +3,13 @@ import CartWidget from './CartWidget';
 import Logo from './Logo';
 import SearchBar from './SearchBar';
 import Sections from './Sections';
+import UserBar from './UserBar';
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-            <div className="container-fluid mx-5">
+        <nav className="navbar navbar-expand-lg navbar-light bg-transparent d-block p-0">
+            <UserBar/>
+            <div className="container-fluid">
                 <Logo />
                 <ButtonMenu />
                 <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">

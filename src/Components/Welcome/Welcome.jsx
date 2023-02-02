@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ItemListContainer = ({username}) => {
+const Welcome = ({username}) => {
     return (
         <div className='d-flex justify-content-center aling-items-center welcome'>
             <h1>¡Bienvenido, {username}!</h1>
@@ -8,4 +8,4 @@ const ItemListContainer = ({username}) => {
     );
 }
 
-export default ItemListContainer;
+export default Welcome;

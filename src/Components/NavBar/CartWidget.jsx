@@ -2,8 +2,8 @@ import bolsa from '../images/bolsa.png';
 
 const CartWidget = ({cantCarrito}) => {
     return (
-        <div className='d-flex  mx-5'>
-            <img src={bolsa} alt="" />
+        <div className='d-flex mx-3'>
+            <img className='bolsa' src={bolsa} alt=""/>
             <p className='contador'>{cantCarrito}</p>
         </div>
     );

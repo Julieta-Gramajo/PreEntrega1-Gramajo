@@ -1,17 +1,22 @@
+import hover from "../images/hover.png";
 import ListCategories from './ListCategories'
+import { Link } from 'react-router-dom';
 const Sections = () => {
     return (
-        <ul className="navbar-nav mx-5">
-                        <li className="nav-item mx-3">
-                            <a className="nav-link" href="#">Inicio</a>
+        <ul className="navbar-nav mx-3">
+                        <li className="nav-item mx-1 lista d-flex justify-content-center">
+                            <Link className="nav-link" to={"/"}>Inicio</Link>
+                            <img className="hover" src={hover} alt={"logo"}/>
                         </li>
-                        <li className="nav-item mx-3">
-                            <a className="nav-link" href="#">Contacto</a>
+                        <li className="nav-item mx-1 lista d-flex justify-content-center">
+                            <Link className="nav-link" to={"/contacto"}>Contacto</Link>
+                            <img className="hover" src={hover} alt={"logo"}/>
                         </li>
-                        <li className="nav-item dropdown mx-3">
+                        <li className="nav-item dropdown mx-1 lista d-flex justify-content-center">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Categorias
                             </a>
+                            <img className="hover" src={hover} alt={"logo"}/>
                             <ListCategories />
                         </li>
                     </ul>

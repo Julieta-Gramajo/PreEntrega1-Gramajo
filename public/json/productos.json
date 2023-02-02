@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "categoria": "pañales",
+        "marca": "Pampers",
+        "nombre": "Comfort sec",
+        "talle": "RN",
+        "precio": 2999,
+        "stock": 6,
+        "img": "panales1.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "categoria": "pañales",
+        "marca": "Pampers",
+        "nombre": "Total protect",
+        "talle": "G",
+        "descripcion": "Mantiene a tu bebe sequito durante toda la noche. Se adaptan suavemente alrededor de las piernas de tu bebé evitando los derrames y tiene 3 canales extra absorbentes que distribuyen el pipí y ayudan a evitar que el pañal se cuelgue.",
+        "precio": 3299,
+        "stock": 6,
+        "img": "panales2.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "categoria": "pañales",
+        "marca": "Huggies",
+        "nombre": "Supreme care",
+        "talle": "G",
+        "precio": 3999,
+        "stock": 6,
+        "img": "panales3.png"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "categoria": "pañales",
+        "marca": "Huggies",
+        "nombre": "Flexi comfort",
+        "talle": "M",
+        "precio": 2799,
+        "stock": 6,
+        "img": "panales4.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "categoria": "pañales",
+        "marca": "Babysec",
+        "nombre": "Voy solito",
+        "talle": "XXG",
+        "precio": 2699,
+        "stock": 6,
+        "img": "panales5.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "categoria": "mamaderas",
+        "marca": "Avent",
+        "nombre": "Classic",
+        "talle": "+0M",
+        "precio": 3299,
+        "stock": 6,
+        "img": "mamaderas1.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "categoria": "mamaderas",
+        "marca": "Avent",
+        "nombre": "Natural",
+        "talle": "+0M",
+        "precio": 5499,
+        "stock": 6,
+        "img": "mamaderas2.png"
+    },
+    {
+        "id": 8,
+        "idCategoria": 2,
+        "categoria": "mamaderas",
+        "marca": "Medela",
+        "nombre": "Calma",
+        "talle": "+0M",
+        "precio": 6599,
+        "stock": 6,
+        "img": "mamaderas3.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": 2,
+        "categoria": "mamaderas",
+        "marca": "Nuk",
+        "nombre": "First choise",
+        "talle": "+6M",
+        "precio": 2499,
+        "stock": 6,
+        "img": "mamaderas4.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": 2,
+        "categoria": "mamaderas",
+        "marca": "Pigeon",
+        "nombre": "Flexible",
+        "talle": "+6M",
+        "precio": 2399,
+        "stock": 6,
+        "img": "mamaderas5.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": 3,
+        "categoria": "chupetes",
+        "marca": "Avent",
+        "nombre": "Ultra air",
+        "talle": "+18M",
+        "precio": 3599,
+        "stock": 6,
+        "img": "chupetes1.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": 3,
+        "categoria": "chupetes",
+        "marca": "Fisher price",
+        "nombre": "Orthodontic",
+        "talle": "+6M",
+        "precio": 999,
+        "stock": 6,
+        "img": "chupetes2.png"
+    },
+    {
+        "id": 13,
+        "idCategoria": 3,
+        "categoria": "chupetes",
+        "marca": "Nuk",
+        "nombre": "Space",
+        "talle": "+0M",
+        "precio": 1799,
+        "stock": 6,
+        "img": "chupetes3.png"
+    },
+    {
+        "id": 14,
+        "idCategoria": 3,
+        "categoria": "chupetes",
+        "marca": "Avent",
+        "nombre": "Soothie",
+        "talle": "+0M",
+        "precio": 3499,
+        "stock": 6,
+        "img": "chupetes4.png"
+    },
+    {
+        "id": 15,
+        "idCategoria": 3,
+        "categoria": "chupetes",
+        "marca": "Babelito",
+        "nombre": "Anatómico",
+        "talle": "+6M",
+        "precio": 699,
+        "stock": 6,
+        "img": "chupetes5.png"
+    }
+]

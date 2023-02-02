@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 *{
   margin: 0;
@@ -8,8 +9,13 @@
 
 .navbar-nav a{
   font-family: 'Montaga', serif;
-  color: #FF8E7B;
+  color: #495057;
   font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #F88F8F;
 }
 
 .form-control{
@@ -20,7 +26,7 @@
 .buscador{
   background-color: #F1D4CE;
   height: 60px;
-  width: 435px;
+  width: 300px;
   border-radius: 27px;
   padding: 20px;
 }
@@ -30,9 +36,9 @@
   background-color: #FF77AB;
   border-radius: 50%;
   width: 35px;
-  bottom: 8px;
-  right: 100px;
-  font-size: 25px;
+  bottom: 0px;
+  right: 20px;
+  font-size: 23px;
   font-weight: 700;
   color: #FFFFFF;
   text-align: center;
@@ -58,8 +64,8 @@
   color: #495057;
   background-color: transparent;
   border-color: transparent;
-  outline: 0; 
-  box-shadow: transparent;
+  outline: none; 
+  box-shadow: none;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -72,3 +78,104 @@
   color: #FFFFFF;
   background-color:#FFBABA;
 }
+
+.btnCount{
+  background-color: #FFBABA;
+  font-family: 'Concert One', cursive;
+  color: #FFFFFF;
+  font-size: 19px;
+  text-transform: uppercase;
+  border: 2px solid rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px -3px rgba(0, 0, 0, 0.4);
+  padding: 0 10px;
+}
+
+.button{
+  background-color: #FFBABA;
+  font-family: 'Concert One', cursive;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 2px solid rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px -3px rgba(0, 0, 0, 0.4);
+  padding: 5px 15px;
+}
+
+.btn:hover {
+  color: #F88F8F;
+  background-color:rgb(255, 255, 255);
+  border-color: #F88F8F;
+}
+
+.hover{
+  display: none;
+}
+
+.lista:hover > img{
+  display: block;
+  position: absolute;
+  padding-top: 30px
+}
+
+.lista:hover > a {
+  color: #F88F8F;
+}
+
+.nav-link{
+  padding: 0;
+}
+
+.encabezado{
+  color: #FF8E7B;
+  border-bottom: 1px solid #FF8E7B;
+  text-transform: uppercase;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 6px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.contenedor{
+  border: 2px solid rgb(220, 219, 218, 0.5);
+  box-shadow: 6px 6px 6px -3px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+}
+
+.botonDetail{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.botonDetail:hover{
+  color: #FFFFFF;
+}
+
+.botonPrincipal:hover{
+  background-color: #FF77AB;
+  color: #FFFFFF;
+}
+
+.itemDetail{
+  width: 900px;
+}
+
+.user{
+  background-color: #F1D4CE;
+  padding: 10px 0 ;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+.logo{
+  width: 160px;
+}
+
+.bolsa{
+  width: 70px;
+}
+
