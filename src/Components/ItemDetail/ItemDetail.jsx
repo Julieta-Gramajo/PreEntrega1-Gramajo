@@ -1,6 +1,9 @@
 import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({item}) => {
+    const onAdd = () => {}
+
+
     return (
         <div className="d-flex contenedor justify-content-center align-items-center itemDetail">
             <div className="col-md-4">
@@ -13,7 +16,7 @@ const ItemDetail = ({item}) => {
                     <p className="card-text">{item.descripcion}</p>
                     <p className="card-text fw-bold">${new Intl.NumberFormat("de-DE").format(item.precio)}</p>
                     <p className="card-text">Quedan: {item.stock} disponible.</p>
-                    <ItemCount valInicial={1} stock={item.stock} />
+                    <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
                     <button type="button" className="btn button mt-4 py-1 botonPrincipal">Finalizar compra</button>
                 </div>
             </div>

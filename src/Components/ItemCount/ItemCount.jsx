@@ -1,11 +1,16 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
-export const ItemCount = ({ valInicial, stock }) => {
+export const ItemCount = ({ valInicial, stock, onAdd }) => {
 
     const [contador, setContador] = useState(valInicial)
 
     const sumar = () => (contador < stock) && setContador(contador + 1)
     const restar = () => (contador > valInicial) && setContador(contador - 1)
+    const agregarCarrito = () => {
+        onAdd(contador)
+        toast.success(`¡Agregaste ${contador} unidades al carrito!`)
+    }
 
     return (
         <div className="d-flex">
@@ -15,7 +20,7 @@ export const ItemCount = ({ valInicial, stock }) => {
                 <button type="button" className="btn botonPrincipal btnCount" onClick={() => restar()}>-</button>
             </div>
             <div>
-                <button type="button" className="btn botonPrincipal mx-5 btnCount">Agregar</button>
+                <button type="button" className="btn botonPrincipal mx-5 btnCount" onClick={() => agregarCarrito()}>Agregar</button>
             </div>
         </div>
     );

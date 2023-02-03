@@ -179,3 +179,27 @@
   width: 70px;
 }
 
+.formularioControl{
+  background-color: #F1D4CE;
+  height: 40px;
+  width: 300px;
+  padding: 20px;
+}
+
+.formulario{
+  border: 2px solid rgb(220, 219, 218, 0.5);
+  box-shadow: 6px 6px 6px -3px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.formularioControl:focus {
+  color: #FFFFFF;
+  background-color: #FF77AB;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.textarea{
+  height: 150px;
+}
