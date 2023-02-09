@@ -4,11 +4,14 @@ import Logo from './Logo';
 import SearchBar from './SearchBar';
 import Sections from './Sections';
 import UserBar from './UserBar';
+import DarkModeButton from '../DarkModeButton/DarkModeButton';
+
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent d-block p-0">
-            <UserBar/>
+            <DarkModeButton />
+            <UserBar />
             <div className="container-fluid">
                 <Logo />
                 <ButtonMenu />
@@ -16,7 +19,8 @@ const NavBar = () => {
                     <Sections />
                     <SearchBar />
                 </div>
-                <CartWidget cantCarrito={2}/>
+                <CartWidget cantCarrito={2} />
+                
             </div>
         </nav>
     );

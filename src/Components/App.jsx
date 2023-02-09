@@ -10,20 +10,25 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './Contacto/Contacto';
 
+//Context
+import { DarkModeProvider } from '../context/DarkModeContext';
+
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavBar />
-        <Welcome username={"Tutor corrector"} />
+        <DarkModeProvider>
+          <NavBar />
+          <Welcome username={"Tutor corrector"} />
 
-        <Routes>
-          <Route path='/' element={<ItemListContainer />}/> 
-          <Route path='/item/:id' element={<ItemDetailContainer />} /> 
-          <Route path='/category/:categoria' element={<ItemListContainer />} /> 
-          <Route path='/contacto' element={<Contacto />} /> 
-        </Routes>
-        <ToastContainer/>
+          <Routes>
+            <Route path='/' element={<ItemListContainer />} />
+            <Route path='/item/:id' element={<ItemDetailContainer />} />
+            <Route path='/category/:categoria' element={<ItemListContainer />} />
+            <Route path='/contacto' element={<Contacto />} />
+          </Routes>
+          <ToastContainer />
+        </DarkModeProvider>
       </BrowserRouter>
     </>
   );

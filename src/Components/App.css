@@ -117,7 +117,8 @@
 .lista:hover > img{
   display: block;
   position: absolute;
-  padding-top: 30px
+  padding-top: 30px;
+  z-index: -1;
 }
 
 .lista:hover > a {
@@ -142,6 +143,11 @@
   border: 2px solid rgb(220, 219, 218, 0.5);
   box-shadow: 6px 6px 6px -3px rgba(0, 0, 0, 0.1);
   padding-bottom: 30px;
+}
+
+.contenedorDark{
+  background-color: #495057;
+  color: #FFFFFF;
 }
 
 .botonDetail{
@@ -202,4 +208,8 @@
 
 .textarea{
   height: 150px;
+}
+
+.darkMode{
+  background-color: #495057;
 }
