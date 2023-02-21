@@ -1,14 +1,8 @@
-import ItemCount from "../ItemCount/ItemCount";
-
 import { useCarritoContext } from "../../context/CarritoContext";
+const ItemCart = ({item}) => {
+    const {removeItem} = useCarritoContext(
 
-const ItemDetail = ({item}) => {
-    const {addItem} = useCarritoContext()
-
-    const onAdd = (cantidad) => {
-        addItem(item, cantidad)
-    }
-
+    )
     return (
         <div className="d-flex contenedor justify-content-center align-items-center itemDetail">
             <div className="col-md-4">
@@ -18,15 +12,14 @@ const ItemDetail = ({item}) => {
                 <div className="card-body">
                     <h5 className="card-title encabezado text-center">{item.categoria}</h5>
                     <p className="card-text fw-bold my-3">{item.marca} "{item.nombre}" {item.talle}</p>
-                    <p className="card-text">{item.descripcion}</p>
-                    <p className="card-text fw-bold">${new Intl.NumberFormat("de-DE").format(item.precio)}</p>
-                    <p className="card-text">Quedan: {item.stock} disponible.</p>
-                    <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
-                    <button type="button" className="btn button mt-4 py-1 botonPrincipal">Finalizar compra</button>
+                    <p className="card-text">Cantidad: {item.cant}</p>
+                    <p className="card-text">Precio unitario: ${new Intl.NumberFormat("de-DE").format(item.precio)}</p>
+                    <p className="card-text fw-bold">Subtotal: ${new Intl.NumberFormat("de-DE").format(item.precio * item.cant)}</p>
+                    <button type="button" className="btn btn-danger button mt-4 py-1 botonPrincipal" onClick={() => removeItem(item.id)}>Eliminar del carrito</button>
                 </div>
             </div>
         </div>
     );
 }
 
-export default ItemDetail;
+export default ItemCart;

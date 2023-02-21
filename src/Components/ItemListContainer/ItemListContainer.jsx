@@ -7,6 +7,9 @@ import ItemList from "../ItemList/ItemList";
 //Context
 import { useDarkModeContext } from "../../context/DarkModeContext";
 
+//Firebase
+import { getProductos } from "../../firebase/firebase";
+
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const { categoria } = useParams()
@@ -15,23 +18,22 @@ const ItemListContainer = () => {
 
     useEffect(() => {
         if (categoria) {
-            fetch('../json/productos.json')
-                .then(response => response.json())
+            getProductos()
                 .then(items => {
-                    const products = items.filter(prod => prod.categoria === categoria)
-                    const productsList = ItemList({products})
+                    const products = items.filter(prod => prod.stock > 0).filter(prod => prod.categoria === categoria)
+                    const productsList = <ItemList products={products} plantilla={"item"} />
                     setProductos(productsList)
                 })
         }
-        else{
-            fetch('./json/productos.json')
-            .then(response => response.json())
-            .then(products => {
-                const productsList = ItemList({products})
-                setProductos(productsList)
-            })
+        else {
+            getProductos()
+                .then(items => {
+                    const products = items.filter(prod => prod.stock > 0)
+                    const productsList = <ItemList products={products} plantilla={"item"} />
+                    setProductos(productsList)
+                })
         }
-        
+
     }, [categoria])
 
 

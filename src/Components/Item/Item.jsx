@@ -9,7 +9,7 @@ const Item = ({ item }) => {
 
     return (
         <div className={`card m-3 ${darkMode ? "contenedorDark" : "contenedor"}`} style={{ width: '18rem' }}>
-            <img src={`../json/img/${item.img}`} className="card-img-top" alt={`Imagen de ${item.categoria} ${item.marca} ${item.nombre}`} />
+            <img src={item.img} className="card-img-top" alt={`Imagen de ${item.categoria} ${item.marca} ${item.nombre}`} />
             <div className="card-body text-center">
                 <h5 className="card-title encabezado text-center">{item.categoria}</h5>
                 <p className="card-text">{item.marca} "{item.nombre}" {item.talle}</p>

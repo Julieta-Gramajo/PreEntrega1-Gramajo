@@ -8,7 +8,7 @@
         "talle": "RN",
         "precio": 2999,
         "stock": 6,
-        "img": "panales1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/panales1.png?alt=media&token=2a22a1dd-1ecf-4b1f-9eac-7e0715f89e17"
     },
     {
         "id": 2,
@@ -20,7 +20,7 @@
         "descripcion": "Mantiene a tu bebe sequito durante toda la noche. Se adaptan suavemente alrededor de las piernas de tu bebé evitando los derrames y tiene 3 canales extra absorbentes que distribuyen el pipí y ayudan a evitar que el pañal se cuelgue.",
         "precio": 3299,
         "stock": 6,
-        "img": "panales2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/panales2.png?alt=media&token=a14a37b6-a946-49d4-8e0e-00aef9517fc1"
     },
     {
         "id": 3,
@@ -31,7 +31,7 @@
         "talle": "G",
         "precio": 3999,
         "stock": 6,
-        "img": "panales3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/panales3.png?alt=media&token=2689964b-b600-404b-a72a-2f136c06fe48"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@
         "talle": "M",
         "precio": 2799,
         "stock": 6,
-        "img": "panales4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/panales4.png?alt=media&token=633e3e6f-96eb-4a23-b61b-15b33ba0cda5"
     },
     {
         "id": 5,
@@ -53,7 +53,7 @@
         "talle": "XXG",
         "precio": 2699,
         "stock": 6,
-        "img": "panales5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/panales5.png?alt=media&token=6f88ec9a-b1dc-4406-a46e-72f814debf73"
     },
     {
         "id": 6,
@@ -64,7 +64,7 @@
         "talle": "+0M",
         "precio": 3299,
         "stock": 6,
-        "img": "mamaderas1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/mamaderas1.png?alt=media&token=9c5bc468-a6e3-4d0a-b45e-317f46bd0192"
     },
     {
         "id": 7,
@@ -75,7 +75,7 @@
         "talle": "+0M",
         "precio": 5499,
         "stock": 6,
-        "img": "mamaderas2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/mamaderas2.png?alt=media&token=651d1f07-c074-4296-8312-cc28ced4e339"
     },
     {
         "id": 8,
@@ -86,7 +86,7 @@
         "talle": "+0M",
         "precio": 6599,
         "stock": 6,
-        "img": "mamaderas3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/mamaderas3.png?alt=media&token=c6b50ec8-61c0-465e-abae-0ce536f267c4"
     },
     {
         "id": 9,
@@ -97,7 +97,7 @@
         "talle": "+6M",
         "precio": 2499,
         "stock": 6,
-        "img": "mamaderas4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/mamaderas4.png?alt=media&token=3d05e918-4a55-4797-8ad7-52aae55e8138"
     },
     {
         "id": 10,
@@ -108,7 +108,7 @@
         "talle": "+6M",
         "precio": 2399,
         "stock": 6,
-        "img": "mamaderas5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/mamaderas5.png?alt=media&token=16f7266b-53f0-4edf-b816-6a703571a76c"
     },
     {
         "id": 11,
@@ -119,7 +119,7 @@
         "talle": "+18M",
         "precio": 3599,
         "stock": 6,
-        "img": "chupetes1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/chupetes1.png?alt=media&token=1f6cf892-49b5-4254-8567-31d099817c94"
     },
     {
         "id": 12,
@@ -130,7 +130,7 @@
         "talle": "+6M",
         "precio": 999,
         "stock": 6,
-        "img": "chupetes2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/chupetes2.png?alt=media&token=4006f2ff-f0a1-47dd-ac09-3033499ef35f"
     },
     {
         "id": 13,
@@ -141,7 +141,7 @@
         "talle": "+0M",
         "precio": 1799,
         "stock": 6,
-        "img": "chupetes3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/chupetes3.png?alt=media&token=12cb23a4-49bf-4973-8ad2-6e5702d82049"
     },
     {
         "id": 14,
@@ -152,7 +152,7 @@
         "talle": "+0M",
         "precio": 3499,
         "stock": 6,
-        "img": "chupetes4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/chupetes4.png?alt=media&token=1b475626-3cc4-46e4-bcbf-8855ca26a336"
     },
     {
         "id": 15,
@@ -163,6 +163,6 @@
         "talle": "+6M",
         "precio": 699,
         "stock": 6,
-        "img": "chupetes5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-reactjs-coderho-e1b08.appspot.com/o/chupetes5.png?alt=media&token=6e9878d0-155b-4097-b0e3-b4fb3a6598d8"
     }
 ]
